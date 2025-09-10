@@ -1,0 +1,52 @@
+
+- Análise de partes interessadas (Stakeholders)
+    - Sponsor
+    - Cliente
+    - Usuário
+  - Classificação de pessoas interessadas
+    - Neutro
+    - Negativo
+    - Positivo
+  - Identificar as partes interessadas
+    ![Quadro para identificar pessoas interessadas](./imgs/identificar-pessoas-interessadas.png)
+- Planejamento
+  - Áreas de conhecimentos
+    - Escopo
+      - Levantamento de requisitos
+      - Definir o escopo
+      - Estrutura Analítica de processos
+      - Garantir que o produto ou serviço seja obtido através da menor quantidade de trabalho possível, sem abandonar nenhuma premissa estabelecida no objetivo do projeto.
+        - Gerenciamento de escopo
+          - Coleta de requisitos
+            - Entrada
+              - Termo de abertura do projeto
+              - Registro das partes interessadas
+            - Ferramentas
+              - Entrevistas
+              - Brainstorming
+              - Oficina
+              - Questionário e pesquisas
+              - Observações
+              - Protótipos
+            - Saída
+              - Documentos dos requisitos
+              - Plano de gerenciamento dos requisitos
+              - Matriz de rastreabilidade dos requisitos
+          - Documento de requisitos
+            - Técnica de MoSCoW
+              - Must have: Requisitos essenciais
+              - Should have: Requisitos importantes
+              - Could have: Requisitos interessantes
+              - Would have: Requisitos não importantes
+          - Work Breakdown Structure (WBS) ou Estrutura analítica do projeto (EAP)
+            - Representação gráfica do projeto
+            - Mostra uma reação de hierarquia
+            - 5 passos para elaboração do EAP
+              - Escrever o nome do projeto no primeiro nível
+              - Inicie o segundo nível com as entregas de gerenciamento e encerramento do projeto
+              - Acrescente as fases do ciclo de vida do projeto no segundo nível
+              - Decomponha as entregas em pacotes de trabalho
+              - Revise e cotinue a EAP, referindo-a quando necessário, até que a mesma esteja apta a ser aprovada.
+    - Tempo
+      - []
+    - Recursos humanos
