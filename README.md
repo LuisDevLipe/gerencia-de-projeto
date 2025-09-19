@@ -9,7 +9,7 @@
   - [ ] Entrega pre liminar
 
   	- [ ] Iniciação
-  		1. [ ] [Termo de abertura](./termo-de-abertura/termo-de-abertura.odt)
+  		1. [ ] [Termo de abertura](./termo-de-abertura/termo-de-abertura.pdf)
 
   	- [ ] Planejamento
   		- Gerenciamento de escopo
