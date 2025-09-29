@@ -8,7 +8,12 @@
 
     -   [ ] Entrega pre liminar
 
+<<<<<<< HEAD
         -   [x] Iniciação
+=======
+  	- [ ] Iniciação
+  		1. [ ] [Termo de abertura](./termo-de-abertura/termo-de-abertura.pdf)
+>>>>>>> 668b78c70807e8de0c3225881fa95028c3b295aa
 
             1. [x] [Termo de abertura](./termo-de-abertura/termo-de-abertura.pdf)
 
