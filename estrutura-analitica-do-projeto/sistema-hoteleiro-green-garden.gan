@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Sistema de gerenciamento hoteleiro" company="Green Garden" webLink="http://" view-date="2025-09-14" view-index="0" gantt-divider-location="266" resource-divider-location="300" version="3.3.3316" locale="pt_BR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Sistema de gerenciamento hoteleiro" company="Green Garden" webLink="http://" view-date="2025-09-14" view-index="0" gantt-divider-location="677" resource-divider-location="300" version="3.3.3316" locale="pt_BR">
     <description><![CDATA[Sistema de gerenciamento hoteleiro para o Hotel Green Garden]]></description>
-    <view zooming-state="default:4" id="gantt-chart">
-        <field id="tpd3" name="Nome" width="196" order="0"/>
-        <field id="tpd4" name="Data inicial" width="34" order="1"/>
-        <field id="tpd5" name="Data final" width="35" order="2"/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="400" order="0"/>
+        <field id="tpd4" name="Data inicial" width="99" order="1"/>
+        <field id="tpd5" name="Data final" width="99" order="2"/>
+        <field id="tpd12" name="Custo" width="63" order="3"/>
         <field id="tpd15" name="Notas" width="20" order="3"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
         <option id="filter.overdueTasks" value="false"/>
         <option id="filter.inProgressTodayTasks" value="false"/>
-        <timeline><![CDATA[86]]></timeline>
+        <timeline><![CDATA[86,7]]></timeline>
     </view>
     <view id="resource-table">
         <field id="0" name="Nome" width="210" order="0"/>
@@ -39,14 +40,51 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" uid="42a1ccb8d6d44cfa9c83d01550be9405" name="1.0 Gerenciamento do Projeto" meeting="false" start="2025-09-19" duration="61" complete="0" expand="false">
-            <task id="6" uid="3f1f717a240d4b838ad68195ea524ea1" name="1.1 Planejamento e Cronograma" meeting="false" start="2025-09-19" duration="16" complete="0" expand="true"/>
-            <task id="7" uid="eff7749ec0594bce8c05efe57d0fda4d" name="1.2 Definição do Cronograma e Marcos (Milestones)" meeting="false" start="2025-09-19" duration="16" complete="0" expand="true"/>
-            <task id="8" uid="4714035ce1bf48feb11ded74528ea717" name="1.3 Gerenciamento de Riscos e Custos" meeting="false" start="2025-09-19" duration="61" complete="0" expand="true"/>
-            <task id="9" uid="25b4e551081043498f4569647bd1839a" name="1.4 Comunicação e Relatórios de Status" meeting="false" start="2025-10-13" duration="45" complete="0" expand="true"/>
-            <task id="10" uid="8902ec12c5b046f699e0ffe0bb9867b9" name="1.5 Encerramento do Projeto" meeting="false" start="2025-11-13" duration="7" complete="0" expand="true"/>
+        <task id="0" uid="42a1ccb8d6d44cfa9c83d01550be9405" name="1.0 Gerenciamento do Projeto" meeting="false" start="2025-09-19" duration="61" complete="18" expand="false">
+            <task id="6" uid="3f1f717a240d4b838ad68195ea524ea1" name="1.1 Planejamento e Cronograma" meeting="false" start="2025-09-19" duration="16" complete="100" expand="true"/>
+            <task id="7" uid="eff7749ec0594bce8c05efe57d0fda4d" name="1.2 Definição do Cronograma e Marcos (Milestones)" meeting="false" start="2025-09-19" duration="16" complete="100" expand="true"/>
+            <task id="8" uid="4714035ce1bf48feb11ded74528ea717" name="1.3 Gerenciamento de Custos" meeting="false" start="2025-09-19" duration="16" complete="0" expand="true"/>
+            <task id="88" uid="e3a84153bd4c425fb7362a24f1c8ec00" name="1.4 Alocação e Gerenciamento de Recursos Humanos" meeting="false" start="2025-10-13" duration="15" complete="0" expand="true">
+                <task id="89" uid="09190c4e28414e7a9931d4cd6c2355c5" name="1.4.1 Desenvolver o plano de recursos humanos" meeting="false" start="2025-10-13" duration="5" complete="1" expand="true">
+                    <depend id="90" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="90" uid="8def9faaef604bfcbcbaf745ce9bdfd5" name="1.4.2 Contratar ou mobilizar a equipe de projeto" meeting="false" start="2025-10-20" duration="5" complete="0" expand="true"/>
+                <task id="91" uid="e47f5d06df8944ac95197122dac23b20" name="1.4.3 Desenvolver a equipe do projeto" meeting="false" start="2025-10-20" duration="5" complete="0" expand="true">
+                    <depend id="93" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="92" uid="dcbb1cd3cf21448b83b68132b073cae1" name="1.4.4 Gerenciar a equipe do projeto" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true">
+                    <task id="93" uid="107b2aadce204a2ba8376da0131a8ee3" name="1.4.4.1 Matriz RACI" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                </task>
+            </task>
+            <task id="9" uid="25b4e551081043498f4569647bd1839a" name="1.5 Gerenciamento das Comunicações" meeting="false" start="2025-10-13" duration="45" complete="0" expand="true">
+                <task id="94" uid="24e7318e8bfe44deabb572881e800119" name="1.5.1 Identificar as partes interessadas" meeting="false" start="2025-10-13" duration="5" complete="0" expand="true">
+                    <depend id="95" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="95" uid="2c9154dd6a8d43658d41f18c039e1d8d" name="1.5.2 Planejar as comunicações" meeting="false" start="2025-10-20" duration="5" complete="0" expand="true">
+                    <depend id="96" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="96" uid="ccdcf87ec9094b92981084c613cbb020" name="1.5.3 Distribuir as informações" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true">
+                    <depend id="98" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="97" uid="8f5b05ad65f34e939bd7f38c06c87f21" name="1.5.4 Gerenciar as expectativas das partes interessadas" meeting="false" start="2025-10-27" duration="10" complete="0" expand="true"/>
+                <task id="98" uid="2f01292486db443ab568ec09a25bd10e" name="1.5.5 Relatar desempenho" meeting="false" start="2025-11-03" duration="30" complete="0" expand="true"/>
+            </task>
+            <task id="87" uid="2c264e0a11fa47b39c5b56f1dc53ca8e" name="1.6 Gerenciamento de Riscos" meeting="false" start="2025-10-13" duration="20" complete="0" expand="true">
+                <task id="99" uid="899896a70b45453e9259247040471b6f" name="1.6.1 Planejar o gerenciamento de riscos" meeting="false" start="2025-10-13" duration="5" complete="0" expand="true">
+                    <depend id="100" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="100" uid="07687c1dce8341ccb0481c3ab7878dcd" name="1.6.2 Identificar os riscos" meeting="false" start="2025-10-20" duration="5" complete="0" expand="true">
+                    <depend id="101" type="2" difference="0" hardness="Rubber"/>
+                    <depend id="102" type="2" difference="0" hardness="Rubber"/>
+                    <depend id="103" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="101" uid="ee48bc1466e84f6eb3d4e4d3d9bdaea9" name="1.6.3 Realizar a análise qualitativa de riscos" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                <task id="102" uid="4a803da4dd354cc48bb03c2ef20313f0" name="1.6.4 Realizar a análise quantitativa de riscos" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                <task id="103" uid="913a24a22d7f496d8659cb63415712a6" name="1.6.5 Planejar respostas aos riscos" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
+            </task>
+            <task id="10" uid="8902ec12c5b046f699e0ffe0bb9867b9" name="1.7 Encerramento do Projeto" meeting="false" start="2025-11-13" duration="22" complete="0" expand="true"/>
         </task>
-        <task id="1" uid="4bb8e0081aaf4d58a5a713b6326ee040" name="2.0 Análise e Design do Sistema" meeting="false" start="2025-09-29" duration="20" complete="0" expand="false">
+        <task id="1" uid="4bb8e0081aaf4d58a5a713b6326ee040" name="2.0 Análise e Design do Sistema" meeting="false" start="2025-09-29" duration="20" complete="0" expand="true">
             <depend id="2" type="2" difference="0" hardness="Rubber"/>
             <task id="11" uid="c9e7d9644a1c4bfb85a874458d77ff95" name="2.1 Refinamento dos Requisitos Funcionais e Não Funcionais" meeting="false" start="2025-09-29" duration="5" complete="0" expand="true">
                 <depend id="12" type="2" difference="0" hardness="Strong"/>
@@ -167,9 +205,42 @@
             <task id="86" uid="205c8320312f441a8f61d6b877288c22" name="6.3 Gerenciamento de Correções (Bugs) e Melhorias" meeting="false" start="2025-12-12" duration="30" complete="0" expand="true"/>
         </task>
     </tasks>
-    <resources/>
-    <allocations/>
+    <resources>
+        <resource id="0" name="Luis Felipe M. Santos" function="Default:1" contacts="luisfelipebsj@gmail.com" phone="">
+            <rate name="standard" value="714"/>
+        </resource>
+        <resource id="1" name="Luis Felipe M. Santos" function="1" contacts="luisfelipebsj@gmail.com" phone="">
+            <rate name="standard" value="400"/>
+        </resource>
+        <resource id="2" name="Luis Felipe M. Santos" function="2" contacts="luisfelipebsj@gmail.com" phone="">
+            <rate name="standard" value="400"/>
+        </resource>
+        <resource id="3" name="Luis Felipe M. Santos" function="3" contacts="luisfelipebsj@gmail.com" phone="">
+            <rate name="standard" value="263"/>
+        </resource>
+        <resource id="4" name="Luis Felipe M. Santos" function="4" contacts="luisfelipebsj@gmail.com" phone="">
+            <rate name="standard" value="500"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="0" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="0" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="0" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="1" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="1" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="2" function="3" responsible="true" load="100.0"/>
+    </allocations>
     <vacations/>
     <previous/>
     <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Designer UI/UX"/>
+        <role id="2" name="Desenvolvedor de SW"/>
+        <role id="3" name="Analista de Sistemas"/>
+        <role id="4" name="Arquiteto de Soluções"/>
+    </roles>
 </project>
