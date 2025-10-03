@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Sistema de gerenciamento hoteleiro" company="Green Garden" webLink="http://" view-date="2025-09-14" view-index="0" gantt-divider-location="677" resource-divider-location="300" version="3.3.3316" locale="pt_BR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Sistema de gerenciamento hoteleiro" company="Green Garden" webLink="http://" view-date="2025-09-14" view-index="0" gantt-divider-location="873" resource-divider-location="300" version="3.3.3316" locale="pt_BR">
     <description><![CDATA[Sistema de gerenciamento hoteleiro para o Hotel Green Garden]]></description>
     <view zooming-state="default:6" id="gantt-chart">
-        <field id="tpd3" name="Nome" width="400" order="0"/>
-        <field id="tpd4" name="Data inicial" width="99" order="1"/>
-        <field id="tpd5" name="Data final" width="99" order="2"/>
-        <field id="tpd12" name="Custo" width="63" order="3"/>
+        <field id="tpd3" name="Nome" width="519" order="0"/>
+        <field id="tpd4" name="Data inicial" width="128" order="1"/>
+        <field id="tpd5" name="Data final" width="128" order="2"/>
+        <field id="tpd12" name="Custo" width="82" order="3"/>
         <field id="tpd15" name="Notas" width="20" order="3"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
@@ -13,8 +13,8 @@
         <timeline><![CDATA[86,7]]></timeline>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nome" width="210" order="0"/>
-        <field id="1" name="Função" width="86" order="1"/>
+        <field id="0" name="Nome" width="199" order="0"/>
+        <field id="1" name="Função" width="82" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -40,169 +40,171 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" uid="42a1ccb8d6d44cfa9c83d01550be9405" name="1.0 Gerenciamento do Projeto" meeting="false" start="2025-09-19" duration="61" complete="18" expand="false">
-            <task id="6" uid="3f1f717a240d4b838ad68195ea524ea1" name="1.1 Planejamento e Cronograma" meeting="false" start="2025-09-19" duration="16" complete="100" expand="true"/>
-            <task id="7" uid="eff7749ec0594bce8c05efe57d0fda4d" name="1.2 Definição do Cronograma e Marcos (Milestones)" meeting="false" start="2025-09-19" duration="16" complete="100" expand="true"/>
-            <task id="8" uid="4714035ce1bf48feb11ded74528ea717" name="1.3 Gerenciamento de Custos" meeting="false" start="2025-09-19" duration="16" complete="0" expand="true"/>
-            <task id="88" uid="e3a84153bd4c425fb7362a24f1c8ec00" name="1.4 Alocação e Gerenciamento de Recursos Humanos" meeting="false" start="2025-10-13" duration="15" complete="0" expand="true">
-                <task id="89" uid="09190c4e28414e7a9931d4cd6c2355c5" name="1.4.1 Desenvolver o plano de recursos humanos" meeting="false" start="2025-10-13" duration="5" complete="1" expand="true">
-                    <depend id="90" type="2" difference="0" hardness="Rubber"/>
+        <task id="104" uid="8ee59bc1ea6f4e78a0ec4894d48bd1bd" name="Sistema Hoteleiro" meeting="false" start="2025-09-19" duration="90" complete="5" expand="true">
+            <task id="0" uid="42a1ccb8d6d44cfa9c83d01550be9405" name="1.0 Gerenciamento do Projeto" meeting="false" start="2025-09-19" duration="61" complete="18" expand="true">
+                <task id="6" uid="3f1f717a240d4b838ad68195ea524ea1" name="1.1 Planejamento e Cronograma" meeting="false" start="2025-09-19" duration="16" complete="100" expand="true"/>
+                <task id="7" uid="eff7749ec0594bce8c05efe57d0fda4d" name="1.2 Definição do Cronograma e Marcos (Milestones)" meeting="false" start="2025-09-19" duration="16" complete="100" expand="true"/>
+                <task id="8" uid="4714035ce1bf48feb11ded74528ea717" name="1.3 Gerenciamento de Custos" meeting="false" start="2025-09-19" duration="16" complete="0" expand="true"/>
+                <task id="88" uid="e3a84153bd4c425fb7362a24f1c8ec00" name="1.4 Alocação e Gerenciamento de Recursos Humanos" meeting="false" start="2025-10-13" duration="15" complete="0" expand="true">
+                    <task id="89" uid="09190c4e28414e7a9931d4cd6c2355c5" name="1.4.1 Desenvolver o plano de recursos humanos" meeting="false" start="2025-10-13" duration="5" complete="1" expand="true">
+                        <depend id="90" type="2" difference="0" hardness="Rubber"/>
+                    </task>
+                    <task id="90" uid="8def9faaef604bfcbcbaf745ce9bdfd5" name="1.4.2 Contratar ou mobilizar a equipe de projeto" meeting="false" start="2025-10-20" duration="5" complete="0" expand="true"/>
+                    <task id="91" uid="e47f5d06df8944ac95197122dac23b20" name="1.4.3 Desenvolver a equipe do projeto" meeting="false" start="2025-10-20" duration="5" complete="0" expand="true">
+                        <depend id="93" type="2" difference="0" hardness="Rubber"/>
+                    </task>
+                    <task id="92" uid="dcbb1cd3cf21448b83b68132b073cae1" name="1.4.4 Gerenciar a equipe do projeto" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true">
+                        <task id="93" uid="107b2aadce204a2ba8376da0131a8ee3" name="1.4.4.1 Matriz RACI" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                    </task>
                 </task>
-                <task id="90" uid="8def9faaef604bfcbcbaf745ce9bdfd5" name="1.4.2 Contratar ou mobilizar a equipe de projeto" meeting="false" start="2025-10-20" duration="5" complete="0" expand="true"/>
-                <task id="91" uid="e47f5d06df8944ac95197122dac23b20" name="1.4.3 Desenvolver a equipe do projeto" meeting="false" start="2025-10-20" duration="5" complete="0" expand="true">
-                    <depend id="93" type="2" difference="0" hardness="Rubber"/>
+                <task id="9" uid="25b4e551081043498f4569647bd1839a" name="1.5 Gerenciamento das Comunicações" meeting="false" start="2025-10-13" duration="45" complete="0" expand="true">
+                    <task id="94" uid="24e7318e8bfe44deabb572881e800119" name="1.5.1 Identificar as partes interessadas" meeting="false" start="2025-10-13" duration="5" complete="0" expand="true">
+                        <depend id="95" type="2" difference="0" hardness="Rubber"/>
+                    </task>
+                    <task id="95" uid="2c9154dd6a8d43658d41f18c039e1d8d" name="1.5.2 Planejar as comunicações" meeting="false" start="2025-10-20" duration="5" complete="0" expand="true">
+                        <depend id="96" type="2" difference="0" hardness="Rubber"/>
+                    </task>
+                    <task id="96" uid="ccdcf87ec9094b92981084c613cbb020" name="1.5.3 Distribuir as informações" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true">
+                        <depend id="98" type="2" difference="0" hardness="Rubber"/>
+                    </task>
+                    <task id="97" uid="8f5b05ad65f34e939bd7f38c06c87f21" name="1.5.4 Gerenciar as expectativas das partes interessadas" meeting="false" start="2025-10-27" duration="10" complete="0" expand="true"/>
+                    <task id="98" uid="2f01292486db443ab568ec09a25bd10e" name="1.5.5 Relatar desempenho" meeting="false" start="2025-11-03" duration="30" complete="0" expand="true"/>
                 </task>
-                <task id="92" uid="dcbb1cd3cf21448b83b68132b073cae1" name="1.4.4 Gerenciar a equipe do projeto" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true">
-                    <task id="93" uid="107b2aadce204a2ba8376da0131a8ee3" name="1.4.4.1 Matriz RACI" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                <task id="87" uid="2c264e0a11fa47b39c5b56f1dc53ca8e" name="1.6 Gerenciamento de Riscos" meeting="false" start="2025-10-13" duration="20" complete="0" expand="true">
+                    <task id="99" uid="899896a70b45453e9259247040471b6f" name="1.6.1 Planejar o gerenciamento de riscos" meeting="false" start="2025-10-13" duration="5" complete="0" expand="true">
+                        <depend id="100" type="2" difference="0" hardness="Rubber"/>
+                    </task>
+                    <task id="100" uid="07687c1dce8341ccb0481c3ab7878dcd" name="1.6.2 Identificar os riscos" meeting="false" start="2025-10-20" duration="5" complete="0" expand="true">
+                        <depend id="101" type="2" difference="0" hardness="Rubber"/>
+                        <depend id="102" type="2" difference="0" hardness="Rubber"/>
+                        <depend id="103" type="2" difference="0" hardness="Rubber"/>
+                    </task>
+                    <task id="101" uid="ee48bc1466e84f6eb3d4e4d3d9bdaea9" name="1.6.3 Realizar a análise qualitativa de riscos" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                    <task id="102" uid="4a803da4dd354cc48bb03c2ef20313f0" name="1.6.4 Realizar a análise quantitativa de riscos" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                    <task id="103" uid="913a24a22d7f496d8659cb63415712a6" name="1.6.5 Planejar respostas aos riscos" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
+                </task>
+                <task id="10" uid="8902ec12c5b046f699e0ffe0bb9867b9" name="1.7 Encerramento do Projeto" meeting="false" start="2025-11-13" duration="22" complete="0" expand="true"/>
+            </task>
+            <task id="1" uid="4bb8e0081aaf4d58a5a713b6326ee040" name="2.0 Análise e Design do Sistema" meeting="false" start="2025-09-29" duration="20" complete="0" expand="true">
+                <depend id="2" type="2" difference="0" hardness="Rubber"/>
+                <task id="11" uid="c9e7d9644a1c4bfb85a874458d77ff95" name="2.1 Refinamento dos Requisitos Funcionais e Não Funcionais" meeting="false" start="2025-09-29" duration="5" complete="0" expand="true">
+                    <depend id="12" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="12" uid="e8b28c8c06294ab8bc100d4d78fea305" name="2.2 Design da Arquitetura do Sistema" meeting="false" start="2025-10-06" duration="5" complete="0" expand="true">
+                    <depend id="14" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="13" uid="aab1d439c58949cbbb4cce16e36f9402" name="2.3 Design da Interface do Usuário (UI) e Experiência do Usuário (UX)" meeting="false" start="2025-10-13" duration="5" complete="0" expand="true">
+                    <task id="14" uid="738161f580fc4f1d9bef05acf63af0bd" name="2.3.1 Criação de Wireframes e Protótipos das Telas" meeting="false" start="2025-10-13" duration="5" complete="0" expand="true">
+                        <depend id="16" type="2" difference="0" hardness="Strong"/>
+                        <depend id="17" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="15" uid="a5dcdac2c1b54be1b3315eb3914eef42" name="2.4 Design do Banco de Dados (PostgreSQL ou MySQL)" meeting="false" start="2025-10-20" duration="5" complete="0" expand="true">
+                    <task id="16" uid="c96f1f2d9d2e4d539d1eabe03fd5ed26" name="2.4.1 Modelagem de Dados (Entidades: Hóspedes, Funcionários, Acomodações, Reservas, Consumos, Faturas, etc.)" meeting="false" start="2025-10-20" duration="5" complete="0" expand="true"/>
+                    <task id="17" uid="d1f854e3f988400480f01fb4a6da25b9" name="2.4.2 Definição de Esquemas e Relacionamentos" meeting="false" start="2025-10-20" duration="5" complete="0" expand="true"/>
                 </task>
             </task>
-            <task id="9" uid="25b4e551081043498f4569647bd1839a" name="1.5 Gerenciamento das Comunicações" meeting="false" start="2025-10-13" duration="45" complete="0" expand="true">
-                <task id="94" uid="24e7318e8bfe44deabb572881e800119" name="1.5.1 Identificar as partes interessadas" meeting="false" start="2025-10-13" duration="5" complete="0" expand="true">
-                    <depend id="95" type="2" difference="0" hardness="Rubber"/>
+            <task id="2" uid="316f3b8cfabf4667a6175d507806284c" name="3.0 Desenvolvimento do Sistema" meeting="false" start="2025-10-27" duration="20" complete="0" expand="true">
+                <task id="18" uid="7b56238c2e5b4e4fbccce26b1df17d3d" name="3.1 Módulo de Cadastros (Core)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true">
+                    <task id="19" uid="4fca5e9500784e7a8b2f731740abce7b" name="3.1.1 Gerenciamento de Hóspedes (Inclusão, Alteração, Remoção)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                    <task id="20" uid="78b1873aa5a842b0b9951603a75ff6aa" name="3.1.2 Gerenciamento de Itens de Consumo (Inclusão, Alteração, Remoção, Categorização)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                    <task id="21" uid="10c3c469b8754706bde3e38bd1d60a88" name="3.1.3 Gerenciamento de Funcionários (Inclusão, Alteração, Remoção)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                    <task id="22" uid="7f650c61454a4570b463878b9d1eca47" name="3.1.4 Gerenciamento de Tipos de Acomodação (Inclusão, Alteração, Remoção)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                    <task id="23" uid="80b8bbf50f00483ba778fda798304350" name="3.1.5 Gerenciamento de Acomodações Individuais (Inclusão, Alteração, Remoção)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
                 </task>
-                <task id="95" uid="2c9154dd6a8d43658d41f18c039e1d8d" name="1.5.2 Planejar as comunicações" meeting="false" start="2025-10-20" duration="5" complete="0" expand="true">
-                    <depend id="96" type="2" difference="0" hardness="Rubber"/>
+                <task id="24" uid="3dbdce76643f469089d9434db9b1a93d" name="3.2 Módulo Operacional e de Reservas" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true">
+                    <task id="25" uid="a5c375b6eb464f0d84f4660fa0a973ab" name="3.2.1 Processamento de Reservas" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true">
+                        <task id="26" uid="934ea654ccae4818874d796230d28081" name="3.2.1.1 Criação e Alteração de Reservas" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                        <task id="27" uid="6499f3064e1942a0a2eda2375dbfd0fa" name="3.2.1.2 Verificação de Disponibilidade em Tempo Real" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                        <task id="28" uid="063d224b222441bc8d7699be751a9349" name="3.2.1.3 Lógica de Multa por Cancelamento (&lt; 12h)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                    </task>
+                    <task id="29" uid="35f52a566f764032b96dcfb7da26c8af" name="3.2.2 Processamento de Check-in (Entrada do Hóspede)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true">
+                        <task id="30" uid="cc9d6a710c9047fb9926ee1e885baa97" name="3.2.2.1 Integração com Reservas Existentes" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                        <task id="31" uid="79c02f520bc4449e8216d93bd5aa1328" name="3.2.2.2 Lançamento de Entrada sem Reserva" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                    </task>
+                    <task id="32" uid="31ddcdaba0184fbeb01562bbdd73c8bb" name="3.2.3 Lançamento de Consumos do Hóspede" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true">
+                        <task id="33" uid="6639d4e96207488bb9fe98e9a4a3731d" name="3.2.3.1 Interface para Lançamento (Frigobar, Restaurante, Lavanderia)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                        <task id="34" uid="f8af3e754dbf45c8937fe29dfa672067" name="3.2.3.2 Associação do Consumo à Acomodação" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                    </task>
+                    <task id="35" uid="5596d12bb5864d6682cf9ea6875e20d4" name="3.2.4 Processamento de Check-out (Saída do Hóspede)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true">
+                        <task id="36" uid="e702f62cb7a84f1cab733d58086d7c51" name="3.2.4.1 Cálculo Automático de Diárias e Consumos" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                        <task id="37" uid="990b40d7dff44c7fbbcdfedab833405c" name="3.2.4.2 Aplicação de Descontos e Taxas (Telefonemas)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                        <task id="38" uid="7dbcab2e23cc47019b5f47734ddcdb4a" name="3.2.4.3 Geração do Extrato Final para Pagamento" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                    </task>
                 </task>
-                <task id="96" uid="ccdcf87ec9094b92981084c613cbb020" name="1.5.3 Distribuir as informações" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true">
-                    <depend id="98" type="2" difference="0" hardness="Rubber"/>
+                <task id="39" uid="4caab7fe914742f49cb0a27693c8fc25" name="3.3 Módulo Financeiro" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true">
+                    <task id="40" uid="5d0c2e036a8448fca9c67161eb524238" name="3.3.1 Processamento de Pagamentos" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true">
+                        <task id="41" uid="8caa87c2f85a46229f3da44473e47b54" name="3.3.1.1 Implementação de Opção à Vista (Dinheiro, Cheque, Cartão)" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
+                        <task id="42" uid="1aa396aa37ef472b921555823bbcc462" name="3.3.1.2 Implementação de Opção Faturado (30 dias)" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
+                    </task>
+                    <task id="43" uid="11e85ebe4d8245cea51ed25fccdf48b6" name="3.3.2 Gerenciamento de Faturas" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true">
+                        <task id="44" uid="2e4ebe494e1d4735874c8d06fb777afe" name="3.3.2.1 Geração de Faturas" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
+                        <task id="45" uid="d118cc2f06724124969b1aaf95b94608" name="3.3.2.2 Quitação de Faturas (com Juros e Multa, se aplicável)" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
+                    </task>
                 </task>
-                <task id="97" uid="8f5b05ad65f34e939bd7f38c06c87f21" name="1.5.4 Gerenciar as expectativas das partes interessadas" meeting="false" start="2025-10-27" duration="10" complete="0" expand="true"/>
-                <task id="98" uid="2f01292486db443ab568ec09a25bd10e" name="1.5.5 Relatar desempenho" meeting="false" start="2025-11-03" duration="30" complete="0" expand="true"/>
-            </task>
-            <task id="87" uid="2c264e0a11fa47b39c5b56f1dc53ca8e" name="1.6 Gerenciamento de Riscos" meeting="false" start="2025-10-13" duration="20" complete="0" expand="true">
-                <task id="99" uid="899896a70b45453e9259247040471b6f" name="1.6.1 Planejar o gerenciamento de riscos" meeting="false" start="2025-10-13" duration="5" complete="0" expand="true">
-                    <depend id="100" type="2" difference="0" hardness="Rubber"/>
+                <task id="46" uid="62c23b6ad32549e7a2270bb548ea4bfb" name="3.4 Módulo de Relatórios e Consultas" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true">
+                    <task id="47" uid="f6936aac78f64f75bc9edab73a8b7155" name="3.4.1 Geração de Listagens Operacionais" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true">
+                        <task id="48" uid="065eb108961949f88daf5bb5af4b84be" name="3.4.1.1 Listagem de Hóspedes Atuais" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
+                        <task id="49" uid="e9c0f840490f47768252ca3daf1fab3b" name="3.4.1.2 Listagem de Reservas para a Data Atual" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
+                    </task>
+                    <task id="50" uid="94aa492851614ea2a45024c68dda8d6e" name="3.4.2 Geração de Comprovantes e Faturas" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true">
+                        <task id="51" uid="c2012f8ec1c74bc98dbcd5c6eb65b783" name="3.4.2.1 Impressão de Comprovante de Saída" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
+                        <task id="52" uid="cf59841307904e598fa8b4a563012516" name="3.4.2.2 Impressão de Faturas Diárias para Envio" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
+                    </task>
+                    <task id="53" uid="5675227b558143b4b5c6dee27cfb3a0a" name="3.4.3 Geração de Relatórios Gerenciais" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true">
+                        <task id="54" uid="8e146abcb645452989ace38400bc14a6" name="3.4.3.1 Relatório de Faturamento por Período" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
+                        <task id="55" uid="72d966b8c95348058612d7b6b33f3db4" name="3.4.3.2 Relatório de Faturas em Atraso" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
+                    </task>
+                    <task id="56" uid="cbda36c0e6b149ed9dbf209bc666cc07" name="3.4.4 Consulta de Ocupação Online" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true">
+                        <task id="57" uid="08f75d92e93f4ad28ed6dcb2af969a73" name="3.4.4.1 Tela de Consulta de Disponibilidade por Período" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
+                    </task>
                 </task>
-                <task id="100" uid="07687c1dce8341ccb0481c3ab7878dcd" name="1.6.2 Identificar os riscos" meeting="false" start="2025-10-20" duration="5" complete="0" expand="true">
-                    <depend id="101" type="2" difference="0" hardness="Rubber"/>
-                    <depend id="102" type="2" difference="0" hardness="Rubber"/>
-                    <depend id="103" type="2" difference="0" hardness="Rubber"/>
+                <task id="58" uid="921f25acac3041c98197e2b374d62a8f" name="3.5 Portal do Hóspede (Online)" meeting="false" start="2025-11-10" duration="5" complete="0" expand="true">
+                    <task id="59" uid="594b26d28d644492898b16378ee89819" name="3.5.1 Sistema de Cadastro e Autenticação de Hóspedes (Login/Senha)" meeting="false" start="2025-11-10" duration="5" complete="0" expand="true"/>
+                    <task id="60" uid="3829d9a7779e4e97b3ce046ba996747b" name="3.5.2 Funcionalidade de Reserva Online" meeting="false" start="2025-11-10" duration="5" complete="0" expand="true"/>
+                    <task id="61" uid="48fc9d41ede844c8a7a049d962eafd4b" name="3.5.3 Consulta e Impressão de Histórico de Estadias" meeting="false" start="2025-11-10" duration="5" complete="0" expand="true"/>
                 </task>
-                <task id="101" uid="ee48bc1466e84f6eb3d4e4d3d9bdaea9" name="1.6.3 Realizar a análise qualitativa de riscos" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
-                <task id="102" uid="4a803da4dd354cc48bb03c2ef20313f0" name="1.6.4 Realizar a análise quantitativa de riscos" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
-                <task id="103" uid="913a24a22d7f496d8659cb63415712a6" name="1.6.5 Planejar respostas aos riscos" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
-            </task>
-            <task id="10" uid="8902ec12c5b046f699e0ffe0bb9867b9" name="1.7 Encerramento do Projeto" meeting="false" start="2025-11-13" duration="22" complete="0" expand="true"/>
-        </task>
-        <task id="1" uid="4bb8e0081aaf4d58a5a713b6326ee040" name="2.0 Análise e Design do Sistema" meeting="false" start="2025-09-29" duration="20" complete="0" expand="true">
-            <depend id="2" type="2" difference="0" hardness="Rubber"/>
-            <task id="11" uid="c9e7d9644a1c4bfb85a874458d77ff95" name="2.1 Refinamento dos Requisitos Funcionais e Não Funcionais" meeting="false" start="2025-09-29" duration="5" complete="0" expand="true">
-                <depend id="12" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="12" uid="e8b28c8c06294ab8bc100d4d78fea305" name="2.2 Design da Arquitetura do Sistema" meeting="false" start="2025-10-06" duration="5" complete="0" expand="true">
-                <depend id="14" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="13" uid="aab1d439c58949cbbb4cce16e36f9402" name="2.3 Design da Interface do Usuário (UI) e Experiência do Usuário (UX)" meeting="false" start="2025-10-13" duration="5" complete="0" expand="true">
-                <task id="14" uid="738161f580fc4f1d9bef05acf63af0bd" name="2.3.1 Criação de Wireframes e Protótipos das Telas" meeting="false" start="2025-10-13" duration="5" complete="0" expand="true">
-                    <depend id="16" type="2" difference="0" hardness="Strong"/>
-                    <depend id="17" type="2" difference="0" hardness="Strong"/>
-                </task>
-            </task>
-            <task id="15" uid="a5dcdac2c1b54be1b3315eb3914eef42" name="2.4 Design do Banco de Dados (PostgreSQL ou MySQL)" meeting="false" start="2025-10-20" duration="5" complete="0" expand="true">
-                <task id="16" uid="c96f1f2d9d2e4d539d1eabe03fd5ed26" name="2.4.1 Modelagem de Dados (Entidades: Hóspedes, Funcionários, Acomodações, Reservas, Consumos, Faturas, etc.)" meeting="false" start="2025-10-20" duration="5" complete="0" expand="true"/>
-                <task id="17" uid="d1f854e3f988400480f01fb4a6da25b9" name="2.4.2 Definição de Esquemas e Relacionamentos" meeting="false" start="2025-10-20" duration="5" complete="0" expand="true"/>
-            </task>
-        </task>
-        <task id="2" uid="316f3b8cfabf4667a6175d507806284c" name="3.0 Desenvolvimento do Sistema" meeting="false" start="2025-10-27" duration="20" complete="0" expand="true">
-            <task id="18" uid="7b56238c2e5b4e4fbccce26b1df17d3d" name="3.1 Módulo de Cadastros (Core)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="false">
-                <task id="19" uid="4fca5e9500784e7a8b2f731740abce7b" name="3.1.1 Gerenciamento de Hóspedes (Inclusão, Alteração, Remoção)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
-                <task id="20" uid="78b1873aa5a842b0b9951603a75ff6aa" name="3.1.2 Gerenciamento de Itens de Consumo (Inclusão, Alteração, Remoção, Categorização)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
-                <task id="21" uid="10c3c469b8754706bde3e38bd1d60a88" name="3.1.3 Gerenciamento de Funcionários (Inclusão, Alteração, Remoção)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
-                <task id="22" uid="7f650c61454a4570b463878b9d1eca47" name="3.1.4 Gerenciamento de Tipos de Acomodação (Inclusão, Alteração, Remoção)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
-                <task id="23" uid="80b8bbf50f00483ba778fda798304350" name="3.1.5 Gerenciamento de Acomodações Individuais (Inclusão, Alteração, Remoção)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
-            </task>
-            <task id="24" uid="3dbdce76643f469089d9434db9b1a93d" name="3.2 Módulo Operacional e de Reservas" meeting="false" start="2025-10-27" duration="5" complete="0" expand="false">
-                <task id="25" uid="a5c375b6eb464f0d84f4660fa0a973ab" name="3.2.1 Processamento de Reservas" meeting="false" start="2025-10-27" duration="5" complete="0" expand="false">
-                    <task id="26" uid="934ea654ccae4818874d796230d28081" name="3.2.1.1 Criação e Alteração de Reservas" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
-                    <task id="27" uid="6499f3064e1942a0a2eda2375dbfd0fa" name="3.2.1.2 Verificação de Disponibilidade em Tempo Real" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
-                    <task id="28" uid="063d224b222441bc8d7699be751a9349" name="3.2.1.3 Lógica de Multa por Cancelamento (&lt; 12h)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
-                </task>
-                <task id="29" uid="35f52a566f764032b96dcfb7da26c8af" name="3.2.2 Processamento de Check-in (Entrada do Hóspede)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="false">
-                    <task id="30" uid="cc9d6a710c9047fb9926ee1e885baa97" name="3.2.2.1 Integração com Reservas Existentes" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
-                    <task id="31" uid="79c02f520bc4449e8216d93bd5aa1328" name="3.2.2.2 Lançamento de Entrada sem Reserva" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
-                </task>
-                <task id="32" uid="31ddcdaba0184fbeb01562bbdd73c8bb" name="3.2.3 Lançamento de Consumos do Hóspede" meeting="false" start="2025-10-27" duration="5" complete="0" expand="false">
-                    <task id="33" uid="6639d4e96207488bb9fe98e9a4a3731d" name="3.2.3.1 Interface para Lançamento (Frigobar, Restaurante, Lavanderia)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
-                    <task id="34" uid="f8af3e754dbf45c8937fe29dfa672067" name="3.2.3.2 Associação do Consumo à Acomodação" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
-                </task>
-                <task id="35" uid="5596d12bb5864d6682cf9ea6875e20d4" name="3.2.4 Processamento de Check-out (Saída do Hóspede)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="false">
-                    <task id="36" uid="e702f62cb7a84f1cab733d58086d7c51" name="3.2.4.1 Cálculo Automático de Diárias e Consumos" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
-                    <task id="37" uid="990b40d7dff44c7fbbcdfedab833405c" name="3.2.4.2 Aplicação de Descontos e Taxas (Telefonemas)" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
-                    <task id="38" uid="7dbcab2e23cc47019b5f47734ddcdb4a" name="3.2.4.3 Geração do Extrato Final para Pagamento" meeting="false" start="2025-10-27" duration="5" complete="0" expand="true"/>
+                <task id="62" uid="c49f4753dcee4bdba2db883e4f812b66" name="3.6 Implementação de Requisitos Não Funcionais" meeting="false" start="2025-11-17" duration="5" complete="0" expand="true">
+                    <task id="63" uid="7ecbb4ff72f046239f8b3f7cbd16232b" name="3.6.1 Sistema de Autenticação e Controle de Acesso por Nível (Administrador, Funcionário)5" meeting="false" start="2025-11-17" duration="5" complete="0" expand="true"/>
+                    <task id="64" uid="9f1c0f4f2d6c4ebca0ee1eada250c52c" name="3.6.2 Desenvolvimento dos Mecanismos de Backup e Recuperação" meeting="false" start="2025-11-17" duration="5" complete="0" expand="true"/>
+                    <task id="65" uid="903475f7e9e34001a134281c85b34e13" name="3.6.3 Otimização de Performance de Consultas e Relatórios" meeting="false" start="2025-11-17" duration="5" complete="0" expand="true"/>
+                    <task id="66" uid="a7411de80abe408dbc829c52c2f79574" name="3.6.4 Configuração de Compatibilidade (Windows 11+, Intel 16GHz+, PostgreSQL/MySQL)" meeting="false" start="2025-11-17" duration="5" complete="0" expand="true"/>
                 </task>
             </task>
-            <task id="39" uid="4caab7fe914742f49cb0a27693c8fc25" name="3.3 Módulo Financeiro" meeting="false" start="2025-11-03" duration="5" complete="0" expand="false">
-                <task id="40" uid="5d0c2e036a8448fca9c67161eb524238" name="3.3.1 Processamento de Pagamentos" meeting="false" start="2025-11-03" duration="5" complete="0" expand="false">
-                    <task id="41" uid="8caa87c2f85a46229f3da44473e47b54" name="3.3.1.1 Implementação de Opção à Vista (Dinheiro, Cheque, Cartão)" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
-                    <task id="42" uid="1aa396aa37ef472b921555823bbcc462" name="3.3.1.2 Implementação de Opção Faturado (30 dias)" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
+            <task id="3" uid="cc7b89976e2d45e0a78739537f1742fb" name="4.0 Testes e Garantia de Qualidade (QA)" meeting="false" start="2025-10-20" duration="25" complete="0" expand="true">
+                <depend id="4" type="2" difference="0" hardness="Strong"/>
+                <task id="67" uid="ada0910b211a430a8b9684a214fc1fcc" name="4.1 Elaboração do Plano de Testes" meeting="false" start="2025-10-20" duration="10" complete="0" expand="true"/>
+                <task id="68" uid="3f68cbc0ad7940009dd5a778d2222625" name="4.2 Testes Unitários de cada funcionalidade" meeting="false" start="2025-10-27" duration="20" complete="0" expand="true"/>
+                <task id="69" uid="0710d6813df24a8da42617640c581896" name="4.3 Testes de Integração entre Módulos" meeting="false" start="2025-11-03" duration="15" complete="0" expand="true"/>
+                <task id="70" uid="7ec62b36881b4110b3e5ef8ab54291b5" name="4.4 Testes de Sistema (verificação de todos os requisitos)" meeting="false" start="2025-11-10" duration="10" complete="0" expand="true"/>
+                <task id="71" uid="2a3f37a74549449b8de27487c9113ad4" name="4.5 Testes de Usabilidade (validação da interface intuitiva)" meeting="false" start="2025-11-10" duration="10" complete="0" expand="true"/>
+                <task id="72" uid="29f97636a9674d788175f654705ea05e" name="4.6 Testes de Performance (validação dos tempos de resposta &lt; 5s e &lt; 20s)" meeting="false" start="2025-11-10" duration="10" complete="0" expand="true"/>
+                <task id="73" uid="14dc6e84adbc45599884c9a32e0a2c8d" name="4.7 Testes de Segurança (validação dos níveis de acesso)" meeting="false" start="2025-11-10" duration="10" complete="0" expand="true"/>
+                <task id="74" uid="9b1bb88b32734b82ad2c6afb61364b0a" name="4.8 Testes de Recuperação de Falhas (Backup/Restore)" meeting="false" start="2025-11-10" duration="10" complete="0" expand="true"/>
+            </task>
+            <task id="4" uid="5af5369b65d5494ebbbb49ef35019de4" name="5.0 Implantação e Treinamento" meeting="false" start="2025-11-24" duration="10" complete="0" expand="true">
+                <depend id="5" type="2" difference="0" hardness="Strong"/>
+                <task id="75" uid="34e4b53d8fe444949b2518d03e2edac3" name="5.1 Preparação do Ambiente de Produção (Servidores, Banco de Dados)" meeting="false" start="2025-11-24" duration="3" complete="0" expand="true"/>
+                <task id="76" uid="077dfb839b334fdda4bc2384ac385863" name="5.2 Instalação e Configuração do Sistema" meeting="false" start="2025-11-27" duration="7" complete="0" expand="true"/>
+                <task id="77" uid="4d6af58806bd4ef2bc0015d00e40b1ef" name="5.3 Migração de Dados (se houver sistema legado)" meeting="false" start="2025-11-27" duration="2" complete="0" expand="true"/>
+                <task id="78" uid="666bf57b29164c7ba2f09979d1a16251" name="5.4 Elaboração da Documentação" meeting="false" start="2025-11-24" duration="5" complete="0" expand="true">
+                    <task id="79" uid="bf2657821fa648bd8302c07852149643" name="5.4.1 Manual do Usuário (Funcionários do Hotel)" meeting="false" start="2025-11-24" duration="5" complete="0" expand="true">
+                        <depend id="83" type="2" difference="0" hardness="Rubber"/>
+                    </task>
+                    <task id="80" uid="6dfa26eb7c3d4100b3a43a6a5bc649c7" name="5.4.2 Documentação Técnica" meeting="false" start="2025-11-24" duration="5" complete="0" expand="true">
+                        <depend id="82" type="2" difference="0" hardness="Rubber"/>
+                    </task>
                 </task>
-                <task id="43" uid="11e85ebe4d8245cea51ed25fccdf48b6" name="3.3.2 Gerenciamento de Faturas" meeting="false" start="2025-11-03" duration="5" complete="0" expand="false">
-                    <task id="44" uid="2e4ebe494e1d4735874c8d06fb777afe" name="3.3.2.1 Geração de Faturas" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
-                    <task id="45" uid="d118cc2f06724124969b1aaf95b94608" name="3.3.2.2 Quitação de Faturas (com Juros e Multa, se aplicável)" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
+                <task id="81" uid="643a257b75b74b9c94e67a90c4ad5928" name="5.5 Treinamento dos Usuários" meeting="false" start="2025-12-02" duration="4" complete="0" expand="true">
+                    <task id="82" uid="cb7c2a43785e45bea9c4d886a2ca004b" name="5.5.1 Treinamento para Administradores" meeting="false" start="2025-12-02" duration="4" complete="0" expand="true"/>
+                    <task id="83" uid="4fffc739079044079e71b4460160ff81" name="5.5.2 Treinamento para Funcionários" meeting="false" start="2025-12-02" duration="4" complete="0" expand="true"/>
                 </task>
             </task>
-            <task id="46" uid="62c23b6ad32549e7a2270bb548ea4bfb" name="3.4 Módulo de Relatórios e Consultas" meeting="false" start="2025-11-03" duration="5" complete="0" expand="false">
-                <task id="47" uid="f6936aac78f64f75bc9edab73a8b7155" name="3.4.1 Geração de Listagens Operacionais" meeting="false" start="2025-11-03" duration="5" complete="0" expand="false">
-                    <task id="48" uid="065eb108961949f88daf5bb5af4b84be" name="3.4.1.1 Listagem de Hóspedes Atuais" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
-                    <task id="49" uid="e9c0f840490f47768252ca3daf1fab3b" name="3.4.1.2 Listagem de Reservas para a Data Atual" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
-                </task>
-                <task id="50" uid="94aa492851614ea2a45024c68dda8d6e" name="3.4.2 Geração de Comprovantes e Faturas" meeting="false" start="2025-11-03" duration="5" complete="0" expand="false">
-                    <task id="51" uid="c2012f8ec1c74bc98dbcd5c6eb65b783" name="3.4.2.1 Impressão de Comprovante de Saída" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
-                    <task id="52" uid="cf59841307904e598fa8b4a563012516" name="3.4.2.2 Impressão de Faturas Diárias para Envio" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
-                </task>
-                <task id="53" uid="5675227b558143b4b5c6dee27cfb3a0a" name="3.4.3 Geração de Relatórios Gerenciais" meeting="false" start="2025-11-03" duration="5" complete="0" expand="false">
-                    <task id="54" uid="8e146abcb645452989ace38400bc14a6" name="3.4.3.1 Relatório de Faturamento por Período" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
-                    <task id="55" uid="72d966b8c95348058612d7b6b33f3db4" name="3.4.3.2 Relatório de Faturas em Atraso" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
-                </task>
-                <task id="56" uid="cbda36c0e6b149ed9dbf209bc666cc07" name="3.4.4 Consulta de Ocupação Online" meeting="false" start="2025-11-03" duration="5" complete="0" expand="false">
-                    <task id="57" uid="08f75d92e93f4ad28ed6dcb2af969a73" name="3.4.4.1 Tela de Consulta de Disponibilidade por Período" meeting="false" start="2025-11-03" duration="5" complete="0" expand="true"/>
-                </task>
+            <task id="5" uid="64017f6235684565a05f26a6da0aa001" name="6.0 Manutenção e Suporte" meeting="false" start="2025-12-12" duration="30" complete="0" expand="true">
+                <task id="84" uid="a604ff53922e4d118e51234a7ebc6ccf" name="6.1 Período de Operação Assistida Pós-Implantação" meeting="false" start="2025-12-12" duration="6" complete="0" expand="true"/>
+                <task id="85" uid="d655f47119e641dc9fd5baef05e7cd65" name="6.2 Plano de Suporte Contínuo" meeting="false" start="2025-12-12" duration="30" complete="0" expand="false"/>
+                <task id="86" uid="205c8320312f441a8f61d6b877288c22" name="6.3 Gerenciamento de Correções (Bugs) e Melhorias" meeting="false" start="2025-12-12" duration="30" complete="0" expand="true"/>
             </task>
-            <task id="58" uid="921f25acac3041c98197e2b374d62a8f" name="3.5 Portal do Hóspede (Online)" meeting="false" start="2025-11-10" duration="5" complete="0" expand="false">
-                <task id="59" uid="594b26d28d644492898b16378ee89819" name="3.5.1 Sistema de Cadastro e Autenticação de Hóspedes (Login/Senha)" meeting="false" start="2025-11-10" duration="5" complete="0" expand="true"/>
-                <task id="60" uid="3829d9a7779e4e97b3ce046ba996747b" name="3.5.2 Funcionalidade de Reserva Online" meeting="false" start="2025-11-10" duration="5" complete="0" expand="true"/>
-                <task id="61" uid="48fc9d41ede844c8a7a049d962eafd4b" name="3.5.3 Consulta e Impressão de Histórico de Estadias" meeting="false" start="2025-11-10" duration="5" complete="0" expand="true"/>
-            </task>
-            <task id="62" uid="c49f4753dcee4bdba2db883e4f812b66" name="3.6 Implementação de Requisitos Não Funcionais" meeting="false" start="2025-11-17" duration="5" complete="0" expand="false">
-                <task id="63" uid="7ecbb4ff72f046239f8b3f7cbd16232b" name="3.6.1 Sistema de Autenticação e Controle de Acesso por Nível (Administrador, Funcionário)5" meeting="false" start="2025-11-17" duration="5" complete="0" expand="true"/>
-                <task id="64" uid="9f1c0f4f2d6c4ebca0ee1eada250c52c" name="3.6.2 Desenvolvimento dos Mecanismos de Backup e Recuperação" meeting="false" start="2025-11-17" duration="5" complete="0" expand="true"/>
-                <task id="65" uid="903475f7e9e34001a134281c85b34e13" name="3.6.3 Otimização de Performance de Consultas e Relatórios" meeting="false" start="2025-11-17" duration="5" complete="0" expand="true"/>
-                <task id="66" uid="a7411de80abe408dbc829c52c2f79574" name="3.6.4 Configuração de Compatibilidade (Windows 11+, Intel 16GHz+, PostgreSQL/MySQL)" meeting="false" start="2025-11-17" duration="5" complete="0" expand="true"/>
-            </task>
-        </task>
-        <task id="3" uid="cc7b89976e2d45e0a78739537f1742fb" name="4.0 Testes e Garantia de Qualidade (QA)" meeting="false" start="2025-10-20" duration="25" complete="0" expand="false">
-            <depend id="4" type="2" difference="0" hardness="Strong"/>
-            <task id="67" uid="ada0910b211a430a8b9684a214fc1fcc" name="4.1 Elaboração do Plano de Testes" meeting="false" start="2025-10-20" duration="10" complete="0" expand="true"/>
-            <task id="68" uid="3f68cbc0ad7940009dd5a778d2222625" name="4.2 Testes Unitários de cada funcionalidade" meeting="false" start="2025-10-27" duration="20" complete="0" expand="true"/>
-            <task id="69" uid="0710d6813df24a8da42617640c581896" name="4.3 Testes de Integração entre Módulos" meeting="false" start="2025-11-03" duration="15" complete="0" expand="true"/>
-            <task id="70" uid="7ec62b36881b4110b3e5ef8ab54291b5" name="4.4 Testes de Sistema (verificação de todos os requisitos)" meeting="false" start="2025-11-10" duration="10" complete="0" expand="true"/>
-            <task id="71" uid="2a3f37a74549449b8de27487c9113ad4" name="4.5 Testes de Usabilidade (validação da interface intuitiva)" meeting="false" start="2025-11-10" duration="10" complete="0" expand="true"/>
-            <task id="72" uid="29f97636a9674d788175f654705ea05e" name="4.6 Testes de Performance (validação dos tempos de resposta &lt; 5s e &lt; 20s)" meeting="false" start="2025-11-10" duration="10" complete="0" expand="true"/>
-            <task id="73" uid="14dc6e84adbc45599884c9a32e0a2c8d" name="4.7 Testes de Segurança (validação dos níveis de acesso)" meeting="false" start="2025-11-10" duration="10" complete="0" expand="true"/>
-            <task id="74" uid="9b1bb88b32734b82ad2c6afb61364b0a" name="4.8 Testes de Recuperação de Falhas (Backup/Restore)" meeting="false" start="2025-11-10" duration="10" complete="0" expand="true"/>
-        </task>
-        <task id="4" uid="5af5369b65d5494ebbbb49ef35019de4" name="5.0 Implantação e Treinamento" meeting="false" start="2025-11-24" duration="10" complete="0" expand="false">
-            <depend id="5" type="2" difference="0" hardness="Strong"/>
-            <task id="75" uid="34e4b53d8fe444949b2518d03e2edac3" name="5.1 Preparação do Ambiente de Produção (Servidores, Banco de Dados)5" meeting="false" start="2025-11-24" duration="3" complete="0" expand="true"/>
-            <task id="76" uid="077dfb839b334fdda4bc2384ac385863" name="5.2 Instalação e Configuração do Sistema" meeting="false" start="2025-11-27" duration="7" complete="0" expand="true"/>
-            <task id="77" uid="4d6af58806bd4ef2bc0015d00e40b1ef" name="5.3 Migração de Dados (se houver sistema legado)" meeting="false" start="2025-11-27" duration="2" complete="0" expand="true"/>
-            <task id="78" uid="666bf57b29164c7ba2f09979d1a16251" name="5.4 Elaboração da Documentação" meeting="false" start="2025-11-24" duration="5" complete="0" expand="true">
-                <task id="79" uid="bf2657821fa648bd8302c07852149643" name="5.4.1 Manual do Usuário (Funcionários do Hotel)" meeting="false" start="2025-11-24" duration="5" complete="0" expand="true">
-                    <depend id="83" type="2" difference="0" hardness="Rubber"/>
-                </task>
-                <task id="80" uid="6dfa26eb7c3d4100b3a43a6a5bc649c7" name="5.4.2 Documentação Técnica" meeting="false" start="2025-11-24" duration="5" complete="0" expand="true">
-                    <depend id="82" type="2" difference="0" hardness="Rubber"/>
-                </task>
-            </task>
-            <task id="81" uid="643a257b75b74b9c94e67a90c4ad5928" name="5.5 Treinamento dos Usuários" meeting="false" start="2025-12-02" duration="4" complete="0" expand="true">
-                <task id="82" uid="cb7c2a43785e45bea9c4d886a2ca004b" name="5.5.1 Treinamento para Administradores5" meeting="false" start="2025-12-02" duration="4" complete="0" expand="true"/>
-                <task id="83" uid="4fffc739079044079e71b4460160ff81" name="5.5.2 Treinamento para Funcionários" meeting="false" start="2025-12-02" duration="4" complete="0" expand="true"/>
-            </task>
-        </task>
-        <task id="5" uid="64017f6235684565a05f26a6da0aa001" name="6.0 Manutenção e Suporte" meeting="false" start="2025-12-12" duration="30" complete="0" expand="false">
-            <task id="84" uid="a604ff53922e4d118e51234a7ebc6ccf" name="6.1 Período de Operação Assistida Pós-Implantação" meeting="false" start="2025-12-12" duration="6" complete="0" expand="true"/>
-            <task id="85" uid="d655f47119e641dc9fd5baef05e7cd65" name="6.2 Plano de Suporte Contínuo" meeting="false" start="2025-12-12" duration="30" complete="0" expand="false"/>
-            <task id="86" uid="205c8320312f441a8f61d6b877288c22" name="6.3 Gerenciamento de Correções (Bugs) e Melhorias" meeting="false" start="2025-12-12" duration="30" complete="0" expand="true"/>
         </task>
     </tasks>
     <resources>
@@ -221,6 +223,9 @@
         <resource id="4" name="Luis Felipe M. Santos" function="4" contacts="luisfelipebsj@gmail.com" phone="">
             <rate name="standard" value="500"/>
         </resource>
+        <resource id="5" name="Infraestrutura" function="4" contacts="https://calculator.aws/#/estimate?id=80155f8ad865396398c4aac140c559b3ec6b66c8" phone="">
+            <rate name="standard" value="237.43"/>
+        </resource>
     </resources>
     <allocations>
         <allocation task-id="0" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
@@ -230,9 +235,30 @@
         <allocation task-id="16" resource-id="0" function="3" responsible="true" load="100.0"/>
         <allocation task-id="17" resource-id="0" function="2" responsible="false" load="100.0"/>
         <allocation task-id="11" resource-id="0" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
         <allocation task-id="12" resource-id="1" function="3" responsible="false" load="100.0"/>
         <allocation task-id="12" resource-id="1" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="67" resource-id="1" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="70" resource-id="1" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="74" resource-id="1" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="75" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="76" resource-id="1" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="78" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="81" resource-id="1" function="2" responsible="true" load="100.0"/>
         <allocation task-id="17" resource-id="2" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="76" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="73" resource-id="3" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="63" resource-id="3" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="75" resource-id="3" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="76" resource-id="3" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="77" resource-id="3" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="81" resource-id="3" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="3" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="66" resource-id="4" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="75" resource-id="4" function="4" responsible="false" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
