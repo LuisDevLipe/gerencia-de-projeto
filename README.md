@@ -12,7 +12,7 @@
         - [x] Gerenciamento de tempo
             1. [x] [Cronograma](./estrutura-analitica-do-projeto/sistema-hoteleiro-green-garden.png)
         - [ ] Gerenciamento de custos
-            1. [ ] Estimar custos e definir orçamento
+            1. [ ] Estimativa de custos e definição de orçamento
 ---
 
 -  [ ] Entrega final

@@ -50,3 +50,6 @@
     - Tempo
       - []
     - Recursos humanos
+    - [Gerenciamento de comunicação](https://unisuamgrad.grupoa.education/plataforma/course/3684828/content/50624429)
+    - [Gerenciamento de Riscos I](https://unisuamgrad.grupoa.education/plataforma/course/3684828/content/50624430)
+
