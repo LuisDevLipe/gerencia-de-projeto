@@ -2,17 +2,17 @@
 
 ## Gerência de Projeto
 
--   [ ] Entrega pre liminar
+-   [x] Entrega pre liminar
     -  [x] Iniciação
         1. [x] [Termo de abertura](./termo-de-abertura/termo-de-abertura.pdf)
 
-    -   [ ] [Planejamento](./estrutura-analitica-do-projeto/sistema-hoteleiro-green-garden.pdf)
+    -   [x] Planejamento
         - [x] Gerenciamento de escopo
-            1. [x] [Estrutura analítica do projeto](./estrutura-analitica-do-projeto/README.md)
+            1. [x] [Estrutura analítica do projeto](./estrutura-analitica-do-projeto/sistema-hoteleiro-green-garden.pdf)
         - [x] Gerenciamento de tempo
             1. [x] [Cronograma](./estrutura-analitica-do-projeto/sistema-hoteleiro-green-garden.png)
-        - [ ] Gerenciamento de custos
-            1. [ ] Estimativa de custos e definição de orçamento
+        - [x] Gerenciamento de custos
+            1. [x] [Estimativa de custos e definição de orçamento](./gerenciamento-de-custos/README.md)
 ---
 
 -  [ ] Entrega final
