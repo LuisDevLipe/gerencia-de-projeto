@@ -13,6 +13,7 @@
             1. [x] [Cronograma](./estrutura-analitica-do-projeto/sistema-hoteleiro-green-garden.png)
         - [x] Gerenciamento de custos
             1. [x] [Estimativa de custos e definição de orçamento](./gerenciamento-de-custos/README.md)
+            
 ---
 
 -  [ ] Entrega final
