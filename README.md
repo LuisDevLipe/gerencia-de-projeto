@@ -2,7 +2,7 @@
 
 ## Gerência de Projeto
 
--   [x] Entrega pre liminar
+-   [x] [Entrega pre liminar](./entrega-pre-liminar.pdf)
     -  [x] Iniciação
         1. [x] [Termo de abertura](./termo-de-abertura/termo-de-abertura.pdf)
 
