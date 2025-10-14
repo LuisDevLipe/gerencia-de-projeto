@@ -34,7 +34,7 @@
         4.  [ ] Gerenciar as expectativas das partes interessadas
         5.  [ ] Relatar desempenho
 
-    - [ ]  Gerenciamento de riscos
+    - [ ]  [Gerenciamento de riscos](./gerenciamento-de-riscos/gerenciamento-de-riscos.pdf)
         1.  [ ] Planejar o gerenciamento de riscos
         2.  [ ] Identificar os riscos
         3.  [ ] Realizar a analise qualitativa dos riscos
