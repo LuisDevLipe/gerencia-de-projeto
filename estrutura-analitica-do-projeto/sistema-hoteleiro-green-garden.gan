@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Sistema de gerenciamento hoteleiro" company="Green Garden" webLink="http://" view-date="2025-09-14" view-index="0" gantt-divider-location="873" resource-divider-location="300" version="3.3.3316" locale="pt_BR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Sistema de gerenciamento hoteleiro" company="Green Garden" webLink="http://" view-date="2025-09-07" view-index="1" gantt-divider-location="500" resource-divider-location="300" version="3.3.3316" locale="pt_BR">
     <description><![CDATA[Sistema de gerenciamento hoteleiro para o Hotel Green Garden]]></description>
     <view zooming-state="default:6" id="gantt-chart">
-        <field id="tpd3" name="Nome" width="519" order="0"/>
-        <field id="tpd4" name="Data inicial" width="128" order="1"/>
-        <field id="tpd5" name="Data final" width="128" order="2"/>
-        <field id="tpd12" name="Custo" width="82" order="3"/>
+        <field id="tpd3" name="Nome" width="266" order="0"/>
+        <field id="tpd4" name="Data inicial" width="81" order="1"/>
+        <field id="tpd5" name="Data final" width="83" order="2"/>
+        <field id="tpd12" name="Custo" width="54" order="3"/>
         <field id="tpd15" name="Notas" width="20" order="3"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
@@ -13,8 +13,8 @@
         <timeline><![CDATA[86,7]]></timeline>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nome" width="199" order="0"/>
-        <field id="1" name="Função" width="82" order="1"/>
+        <field id="0" name="Nome" width="195" order="0"/>
+        <field id="1" name="Função" width="86" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -211,54 +211,47 @@
         <resource id="0" name="Luis Felipe M. Santos" function="Default:1" contacts="luisfelipebsj@gmail.com" phone="">
             <rate name="standard" value="714"/>
         </resource>
-        <resource id="1" name="Luis Felipe M. Santos" function="1" contacts="luisfelipebsj@gmail.com" phone="">
+        <resource id="1" name="Leonardo Inacio dos Santos" function="1" contacts="luisfelipebsj@gmail.com" phone="">
             <rate name="standard" value="400"/>
         </resource>
-        <resource id="2" name="Luis Felipe M. Santos" function="2" contacts="luisfelipebsj@gmail.com" phone="">
+        <resource id="2" name="Gabriel Santana dos Santos" function="2" contacts="luisfelipebsj@gmail.com" phone="">
             <rate name="standard" value="400"/>
         </resource>
-        <resource id="3" name="Luis Felipe M. Santos" function="3" contacts="luisfelipebsj@gmail.com" phone="">
+        <resource id="3" name="Guilherme Santana dos Santos" function="3" contacts="luisfelipebsj@gmail.com" phone="">
             <rate name="standard" value="263"/>
         </resource>
-        <resource id="4" name="Luis Felipe M. Santos" function="4" contacts="luisfelipebsj@gmail.com" phone="">
+        <resource id="4" name="Matheus Macedo Rangel" function="4" contacts="luisfelipebsj@gmail.com" phone="">
             <rate name="standard" value="500"/>
-        </resource>
-        <resource id="5" name="Infraestrutura" function="4" contacts="https://calculator.aws/#/estimate?id=80155f8ad865396398c4aac140c559b3ec6b66c8" phone="">
-            <rate name="standard" value="237.43"/>
         </resource>
     </resources>
     <allocations>
         <allocation task-id="0" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="11" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="12" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="14" resource-id="0" function="1" responsible="true" load="100.0"/>
-        <allocation task-id="16" resource-id="0" function="3" responsible="true" load="100.0"/>
-        <allocation task-id="17" resource-id="0" function="2" responsible="false" load="100.0"/>
-        <allocation task-id="11" resource-id="0" function="3" responsible="false" load="100.0"/>
-        <allocation task-id="2" resource-id="0" function="2" responsible="true" load="100.0"/>
-        <allocation task-id="5" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
         <allocation task-id="12" resource-id="1" function="3" responsible="false" load="100.0"/>
-        <allocation task-id="12" resource-id="1" function="4" responsible="false" load="100.0"/>
-        <allocation task-id="67" resource-id="1" function="3" responsible="true" load="100.0"/>
-        <allocation task-id="70" resource-id="1" function="4" responsible="true" load="100.0"/>
-        <allocation task-id="74" resource-id="1" function="3" responsible="true" load="100.0"/>
-        <allocation task-id="75" resource-id="1" function="2" responsible="false" load="100.0"/>
-        <allocation task-id="76" resource-id="1" function="4" responsible="false" load="100.0"/>
-        <allocation task-id="78" resource-id="1" function="2" responsible="true" load="100.0"/>
-        <allocation task-id="81" resource-id="1" function="2" responsible="true" load="100.0"/>
-        <allocation task-id="17" resource-id="2" function="3" responsible="true" load="100.0"/>
         <allocation task-id="3" resource-id="2" function="2" responsible="true" load="100.0"/>
-        <allocation task-id="76" resource-id="2" function="2" responsible="true" load="100.0"/>
         <allocation task-id="5" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="70" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="74" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="75" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="76" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="78" resource-id="2" function="2" responsible="true" load="100.0"/>
         <allocation task-id="73" resource-id="3" function="3" responsible="false" load="100.0"/>
         <allocation task-id="63" resource-id="3" function="3" responsible="true" load="100.0"/>
-        <allocation task-id="75" resource-id="3" function="3" responsible="true" load="100.0"/>
-        <allocation task-id="76" resource-id="3" function="3" responsible="false" load="100.0"/>
         <allocation task-id="77" resource-id="3" function="3" responsible="true" load="100.0"/>
         <allocation task-id="81" resource-id="3" function="3" responsible="false" load="100.0"/>
         <allocation task-id="5" resource-id="3" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="3" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="3" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="67" resource-id="3" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="75" resource-id="3" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="76" resource-id="3" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="78" resource-id="3" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="3" function="3" responsible="true" load="100.0"/>
         <allocation task-id="66" resource-id="4" function="3" responsible="true" load="100.0"/>
         <allocation task-id="75" resource-id="4" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="4" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="76" resource-id="4" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="4" function="4" responsible="true" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
