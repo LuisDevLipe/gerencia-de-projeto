@@ -1,8 +1,14 @@
-# Projeto 4º Semestre 2025.2
+# Gerência de Projeto
+## Projeto 4º Semestre 2025.2
 
-## Gerência de Projeto
+A *Gerência de Projeto* é uma área de conhecimento que reúne os principais conceitos e técnicas para gerenciar projetos de forma eficiente e eficaz. Envolvendo a gestão de escopo, recursos/custos, comunicações, recursos humanos, riscos e qualidade. A Gerência planeja, organiza, executa, monitora e controla o ciclo de vida de um projeto.
 
--   [x] [Entrega pre liminar](./entrega-pre-liminar.pdf)
+
+A entrega preliminar disponível no primeiro link abaixo é o primeiro entregável do projeto e define o escopo e planejamento necessários para gerenciar o início de um projeto.
+
+Entrega preliminar
+
+-   [x] [Relatório Completo da Entrega preliminar](./entrega-pre-liminar.pdf)
     -  [x] Iniciação
         1. [x] [Termo de abertura](./termo-de-abertura/termo-de-abertura.pdf)
 
@@ -13,7 +19,13 @@
             1. [x] [Cronograma](./estrutura-analitica-do-projeto/sistema-hoteleiro-green-garden.png)
         - [x] Gerenciamento de custos
             1. [x] [Estimativa de custos e definição de orçamento](./gerenciamento-de-custos/README.md)
-            
+
+> O *Termo de Abertura* é o documento inicial que define os objetivos, responsabilidades e compromissos do projeto. Ele contém os objetivos, justificativa, escopo, cronograma de marcos, orçamento e partes interessadas.
+
+> A *Estrutura Analítica do Projeto* contém informações do planejamento como o cronograma e custos.
+
+> A *Estimativa de custos e definição de orçamento* contém informações sobre o diagrama de recursos, custos de infraestrutura e custos de pessoal.
+
 ---
 
 -  [ ] Entrega final
@@ -34,12 +46,12 @@
         4.  [ ] Gerenciar as expectativas das partes interessadas
         5.  [ ] Relatar desempenho
 
-    - [ ]  [Gerenciamento de riscos](./gerenciamento-de-riscos/gerenciamento-de-riscos.pdf)
-        1.  [ ] Planejar o gerenciamento de riscos
-        2.  [ ] Identificar os riscos
-        3.  [ ] Realizar a analise qualitativa dos riscos
-        4.  [ ] Realizar a analise quantitativa de riscos
-        5.  [ ] Planejar respostas aos riscos
+    - [x]  [Gerenciamento de riscos](./gerenciamento-de-riscos/gerenciamento-de-riscos.pdf)
+        1.  [x] Planejar o gerenciamento de riscos
+        2.  [x] Identificar os riscos
+        3.  [x] Realizar a analise qualitativa dos riscos
+        4.  [x] Realizar a analise quantitativa de riscos
+        5.  [x] Planejar respostas aos riscos
 
     -   [ ] Execução
 
