@@ -1,0 +1,3 @@
+- [ ] Mapa da comunicação
+  - [ ] Técnica 5w2h
+    - [ ] Status report
