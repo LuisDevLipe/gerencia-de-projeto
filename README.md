@@ -61,3 +61,11 @@ Entrega preliminar
         1. [ ] Auditar e validar o resultado do projeto com o cliente
 
 ---
+
+## Pontos de melhoria
+
+- [ ] Ajustar o cronograma
+- [ ] Redistribuir os recursos de acordo com o cronograma
+- [ ] Informar a ferramenta utilizada no cronograma
+- [ ] Garantir que os valores e horários estejam concisos em todo o documento
+- Garantir que o Planejamento de riscos esteja de acordo com as informações prestadas no gerenciamento de comunicações
