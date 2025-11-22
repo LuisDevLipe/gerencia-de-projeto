@@ -28,23 +28,23 @@ Entrega preliminar
 
 ---
 
--  [ ] Entrega final
+-  [x] Entrega final
 
-    -  [ ] Recursos Humanos
+    -  [x] Recursos Humanos
 
-        1.  [ ] Desenvolver o plano de recursos humanos
-        2.  [ ] Contratar ou mobilizar a equipe de projeto
-        3.  [ ] Desenvolver a equipe do projeto
-        4.  [ ] Gerenciar a equipe do projeto
-            -   [ ] Matriz RACI
+        1.  [x] Desenvolver o plano de recursos humanos
+        2.  [x] Contratar ou mobilizar a equipe de projeto
+        3.  [x] Desenvolver a equipe do projeto
+        4.  [x] Gerenciar a equipe do projeto
+            -   [x] Matriz RACI
 
-    - [ ]  Gerenciamento das comunicações
+    - [x]  Gerenciamento das comunicações
 
-        1.  [ ] Identificar as partes interessadas
-        2.  [ ] Planejar as comunicações
-        3.  [ ] Distribuir as informações
-        4.  [ ] Gerenciar as expectativas das partes interessadas
-        5.  [ ] Relatar desempenho
+        1.  [x] Identificar as partes interessadas
+        2.  [x] Planejar as comunicações
+        3.  [x] Distribuir as informações
+        4.  [x] Gerenciar as expectativas das partes interessadas
+        5.  [x] Relatar desempenho
 
     - [x]  [Gerenciamento de riscos](./gerenciamento-de-riscos/gerenciamento-de-riscos.pdf)
         1.  [x] Planejar o gerenciamento de riscos
@@ -64,8 +64,8 @@ Entrega preliminar
 
 ## Pontos de melhoria
 
-- [ ] Ajustar o cronograma
-- [ ] Redistribuir os recursos de acordo com o cronograma
-- [ ] Informar a ferramenta utilizada no cronograma
-- [ ] Garantir que os valores e horários estejam concisos em todo o documento
-- Garantir que o Planejamento de riscos esteja de acordo com as informações prestadas no gerenciamento de comunicações
+- [x] Ajustar o cronograma
+- [x] Redistribuir os recursos de acordo com o cronograma
+- [x] Informar a ferramenta utilizada no cronograma
+- [x] Garantir que os valores e horários estejam concisos em todo o documento
+- [x] Garantir que o Planejamento de riscos esteja de acordo com as informações prestadas no gerenciamento de comunicações
