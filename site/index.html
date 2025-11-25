@@ -8,18 +8,139 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <link rel="stylesheet" href="/static/css/style.css">
+        <link rel="stylesheet" href="/static/css/style.css" />
+        <link rel="stylesheet" href="/static/css/media.css" />
         <script src="/static/js/script.js" defer></script>
+        <!-- production -->
+        <!-- <script src="https://unpkg.com/lucide@latest"></script> -->
+        <!-- development -->
+        <script src="/static/js/lucide.js"></script>
+        <!-- <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script> -->
     </head>
     <body>
         <nav>
             <header>
-                <div><img src="/static/assets/logo_name.png" alt=""></div>
-                <h1>Hotel Green Garden</h1>
+                <div><img src="/static/assets/logo_name.png" alt="" /></div>
+                <span>Hotel Green Garden</span>
             </header>
             <ul>
-                <li><a href="/">Home</a></li>
+                <li><a href="/hospedagem">Hospedagem</a></li>
+                <li><a href="/acomadacoes">Acomodações</a></li>
+                <li><a href="/servicos">Serviços</a></li>
+
+                <li class="profile">
+                    <a href="/profile">
+                        <span>Minha conta</span>
+                        <i data-lucide="circle-user-round"></i>
+                    </a>
+                </li>
             </ul>
         </nav>
+        <main>
+            <header>
+                <div class="welcome-message">
+                    <h1>Bem-vindo ao Hotel Green Garden</h1>
+                    <p>Seu refúgio de tranquilidade e conforto</p>
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Busque por acomodações" />
+                    <button type="submit"><i data-lucide="search"></i></button>
+                </form>
+            </header>
+            <div class="content">
+                <aside id="filters">
+                    <p>Filtrar</p>
+
+                    <fieldset>
+                        <legend>Tipo de Acomodação</legend>
+                        <label><input type="checkbox" name="type" value="single" /> Individual</label>
+                        <label><input type="checkbox" name="type" value="double" /> Duplo</label>
+                        <label><input type="checkbox" name="type" value="suite" /> Suíte</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Faixa de Preço</legend>
+                        <label><input type="radio" name="price" value="0-100" /> Até R$100</label>
+                        <label><input type="radio" name="price" value="101-300" /> R$101 - R$300</label>
+                        <label><input type="radio" name="price" value="301+" /> Acima de R$300</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Comodidades</legend>
+                        <label><input type="checkbox" name="amenities" value="wifi" /> Wi-Fi</label>
+                        <label><input type="checkbox" name="amenities" value="breakfast" /> Café da Manhã</label>
+                        <label><input type="checkbox" name="amenities" value="parking" /> Estacionamento</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Classificação por Estrelas</legend>
+                        <label><input type="checkbox" name="stars" value="3" /> 3 Estrelas</label>
+                        <label><input type="checkbox" name="stars" value="4" /> 4 Estrelas</label>
+                        <label><input type="checkbox" name="stars" value="5" /> 5 Estrelas</label>
+                    </fieldset>
+                </aside>
+                <section id="rooms">
+                    <header>
+                        <p>Acomodações</p>
+                        <div>
+                            <span> Ordenar por: </span>
+                            <select name="sort" id="sort-options">
+                                <option value="price-asc">Preço: Menor para Maior</option>
+                                <option value="price-desc">Preço: Maior para Menor</option>
+                                <option value="rating-asc">Avaliação: Menor para Maior</option>
+                                <option value="rating-desc">Avaliação: Maior para Menor</option>
+                            </select>
+                        </div>
+                    </header>
+                    <div class="rooms-list"></div>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <div class="section-sponsors">
+                <span>Patrocinadores:</span>
+                <div class="sponsors-logos">
+                    <div class="sponsor-logo">
+                        <img src="https://logos-world.net/wp-content/uploads/2023/07/Las-Vegas-Logo.png" alt="Sponsor 1" />
+                    </div>
+                    <div class="sponsor-logo">
+                        <img src="https://www.donatelifevirginia.org/wp-content/uploads/2019/10/Donate-Life-Virginia-Logo-Horizontal.png" alt="Sponsor 2" />
+                    </div>
+                    <div class="sponsor-logo">
+                        <img src="https://www.jmsmucker.com/assets/jmsmucker/logos/JMS.png" alt="Sponsor 3" />
+                    </div>
+                    <div class="sponsor-logo">
+                        <img src="https://logos-world.net/wp-content/uploads/2020/11/Old-Spice-Logo.png" alt="Sponsor 4" />
+                    </div>
+                </div>
+            </div>
+            <div class="section-links">
+
+                <div class="useful-links">
+                    <ul>
+                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="#">Institucional</a></li>
+                        <li><a href="#">Carreiras</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Termos e condições</a></li>
+                        <li><a href="#">Política de privacidade</a></li>
+                        <li><a href="#">Ouvidoria</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Marque uma visita</a></li>
+                        <li><a href="#">Fale conosco</a></li>
+                        <li><a href="#">Suporte</a></li>
+                    </ul>
+                </div>
+                <div class="brand">
+                    <img src="/static/assets/logo_name.png" alt="">
+                </div>
+            </div>
+            <div class="copyrights">
+                <span>&copy;2025 Hotel Green Garden. Nenhum dos direitos reservados.</span>
+            </div>
+        </footer>
+        <script>
+            lucide.createIcons();
+        </script>
     </body>
 </html>
