@@ -21,12 +21,28 @@ async function display_rooms() {
                 `
             )}
         </div>
-            <h2>Room ${room.number}</h2>
+        <div class="room-info">
+            <p>Room ${room.number}</p>
+            <p>Price: $${room.price}</p>
+            </div>
             <p>Type: ${room.type}</p>
             <p>Status: ${room.status}</p>
-        `;
+            <div class="rating">
+            ${'<i data-lucide="star"></i>'.repeat(Number(room.rating))}
+            </div>
+            `;
         main.appendChild(roomDiv);
+        lucide.createIcons();
     });
 }
 
 // display_rooms();
+document.querySelectorAll("div.rating").forEach((div) => {
+    const rating = div.getAttribute("data-rating");
+    for (let i = 0; i < rating; i++) {
+        const star = document.createElement("i");
+        star.setAttribute("data-lucide", "star");
+        div.appendChild(star);
+    }
+    lucide.createIcons();
+});

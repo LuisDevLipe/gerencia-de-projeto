@@ -42,7 +42,7 @@ nav {
     }
     ul {
         display: flex;
-        gap: 20px;
+        gap: 40px;
         justify-content: end;
         align-items: center;
         font-size: 1.5rem;
@@ -53,16 +53,50 @@ nav {
                 color: #4d2c14;
             }
         }
+        li.download-app {
+            > a {
+                display: flex;
+                gap: 10px;
+                padding: 5px 15px;
+                /* background-color: #cbb99b; */
+                border-radius: 5px;
+                align-items: center;
+                border: 1px solid #4D2C14;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), inset 0 0 5px rgba(0, 0, 0, 0.1);
+                > svg {
+                    stroke-width: 1;
+                    height: 48px;
+                    width: 48px;
+                }
+            }
+        }
+        li.contact{
+            > a {
+                display: flex;
+                gap: 10px;
+                padding: 5px 15px;
+                /* background-color: #cbb99b; */
+                border-radius: 5px;
+                align-items: center;
+                /* border: 1px solid #4D2C14; */
+                /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), inset 0 0 5px rgba(0, 0, 0, 0.1); */
+                > svg {
+                    stroke-width: 1;
+                    height: 48px;
+                    width: 48px;
+                }
+            }
+        }
         li.profile {
             > a {
                 display: flex;
                 gap: 10px;
                 padding: 5px 15px;
-                background-color: #cbb99b;
+                /* background-color: #cbb99b; */
                 border-radius: 5px;
                 align-items: center;
                 /* border: 1px solid #4D2C14; */
-                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), inset 0 0 5px rgba(0, 0, 0, 0.1);
+                /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), inset 0 0 5px rgba(0, 0, 0, 0.1); */
                 > svg {
                     stroke-width: 1;
                     height: 48px;
@@ -92,7 +126,7 @@ main > header {
         width: fit-content;
         background-color: rgba(255, 255, 255, 0.8);
         padding: 20px;
-        border-radius: 10px;
+        border-radius: 5px;
         /* text-align: center; */
         backdrop-filter: blur(5px);
     }
@@ -102,7 +136,7 @@ main > header {
         justify-content: center;
         align-items: center;
         gap: 10px;
-        border-radius: 999rem;
+        border-radius: 5px;
         overflow: hidden;
         background-color: rgba(255, 255, 255, 0.9);
         border: none;
@@ -201,6 +235,20 @@ main > div.content {
                             object-fit: cover;
                             object-position: center;
                         }
+                    }
+                }
+
+                div.room-info{
+                    display: flex;
+                    justify-content: space-between;
+
+                }
+                div.rating {
+                    svg {
+                        color: gold;
+                        height: 16px;
+                        width: 16px;
+                        fill: gold;
                     }
                 }
             }

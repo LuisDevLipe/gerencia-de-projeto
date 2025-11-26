@@ -25,13 +25,19 @@
                 <span>Hotel Green Garden</span>
             </header>
             <ul>
+                <li class="download-app"><a href="/download-app">
+                    <span>Baixar&nbsp;App</span>
+                    <i data-lucide="download-cloud"></i>
+                </a></li>
                 <li><a href="/hospedagem">Hospedagem</a></li>
                 <li><a href="/acomadacoes">Acomodações</a></li>
                 <li><a href="/servicos">Serviços</a></li>
-
+                <li class="contact"><a href='/contato'>
+                    <i data-lucide="phone"></i>
+                </a></li>
                 <li class="profile">
                     <a href="/profile">
-                        <span>Minha conta</span>
+                        <!-- <span>Minha conta</span> -->
                         <i data-lucide="circle-user-round"></i>
                     </a>
                 </li>
@@ -60,9 +66,9 @@
                     </fieldset>
                     <fieldset>
                         <legend>Faixa de Preço</legend>
-                        <label><input type="radio" name="price" value="0-100" /> Até R$100</label>
-                        <label><input type="radio" name="price" value="101-300" /> R$101 - R$300</label>
-                        <label><input type="radio" name="price" value="301+" /> Acima de R$300</label>
+                        <label><input type="radio" name="Preço" value="0-100" /> Até R$100</label>
+                        <label><input type="radio" name="Preço" value="101-300" /> R$101 - R$300</label>
+                        <label><input type="radio" name="Preço" value="301+" /> Acima de R$300</label>
                     </fieldset>
                     <fieldset>
                         <legend>Comodidades</legend>
@@ -83,14 +89,149 @@
                         <div>
                             <span> Ordenar por: </span>
                             <select name="sort" id="sort-options">
-                                <option value="price-asc">Preço: Menor para Maior</option>
-                                <option value="price-desc">Preço: Maior para Menor</option>
+                                <option value="Preço-asc">Preço: Menor para Maior</option>
+                                <option value="Preço-desc">Preço: Maior para Menor</option>
                                 <option value="rating-asc">Avaliação: Menor para Maior</option>
                                 <option value="rating-desc">Avaliação: Maior para Menor</option>
                             </select>
                         </div>
                     </header>
-                    <div class="rooms-list"></div>
+                    <div class="rooms-list">
+                        <div class="room">
+                            <div class="images">
+                                <div class="image-item">
+                                    <img src="static/assets/images/rooms/1/a.avif" alt="Quarto Image" />
+                                </div>
+                                ,
+                                <div class="image-item">
+                                    <img src="http://192.168.1.188:3000/1/b.avif" alt="Quarto Image" />
+                                </div>
+                            </div>
+                            <div class="room-info">
+                                <p>Quarto 201</p>
+                                <p>Preço: $350</p>
+                            </div>
+                            <p>Tipo: luxo</p>
+                            <p>Condição: disponível</p>
+                            <div class="rating" data-rating="5"></div>
+                        </div>
+                        <div class="room">
+                            <div class="images">
+                                <div class="image-item">
+                                    <img src="static/assets/images/rooms/2/a.avif" alt="Quarto Image" />
+                                </div>
+                            </div>
+                            <div class="room-info">
+                                <p>Quarto 102</p>
+                                <p>Preço: $120</p>
+                            </div>
+                            <p>Tipo: padrão</p>
+                            <p>Condição: ocupado</p>
+                            <div class="rating" data-rating="4"></div>
+                        </div>
+                        <div class="room">
+                            <div class="images">
+                                <div class="image-item">
+                                    <img src="static/assets/images/rooms/3/a.avif" alt="Quarto Image" />
+                                </div>
+                            </div>
+                            <div class="room-info">
+                                <p>Quarto 305</p>
+                                <p>Preço: $250</p>
+                            </div>
+                            <p>Tipo: suíte</p>
+                            <p>Condição: manutenção</p>
+                            <div class="rating" data-rating="4.5"></div>
+                        </div>
+                        <div class="room">
+                            <div class="images">
+                                <div class="image-item">
+                                    <img src="static/assets/images/rooms/4/a.avif" alt="Quarto Image" />
+                                </div>
+                            </div>
+                            <div class="room-info">
+                                <p>Quarto 104</p>
+                                <p>Preço: $130</p>
+                            </div>
+                            <p>Tipo: padrão</p>
+                            <p>Condição: disponível</p>
+                            <div class="rating" data-rating="4.2"></div>
+                        </div>
+                        <div class="room">
+                            <div class="images">
+                                <div class="image-item">
+                                    <img src="static/assets/images/rooms/5/a.avif" alt="Quarto Image" />
+                                </div>
+                            </div>
+                            <div class="room-info">
+                                <p>Quarto 401</p>
+                                <p>Preço: $800</p>
+                            </div>
+                            <p>Tipo: cobertura</p>
+                            <p>Condição: disponível</p>
+                            <div class="rating" data-rating="4.8"></div>
+                        </div>
+                        <div class="room">
+                            <div class="images">
+                                <div class="image-item">
+                                    <img src="static/assets/images/rooms/6/a.avif" alt="Quarto Image" />
+                                </div>
+                            </div>
+                            <div class="room-info">
+                                <p>Quarto 205</p>
+                                <p>Preço: $320</p>
+                            </div>
+                            <p>Tipo: luxo</p>
+                            <p>Condição: ocupado</p>
+                            <div class="rating" data-rating="4.1"></div>
+                        </div>
+                        <div class="room">
+                            <div class="images">
+                                <div class="image-item">
+                                    <img src="static/assets/images/rooms/7/a.avif" alt="Quarto Image" />
+                                </div>
+                            </div>
+                            <div class="room-info">
+                                <p>Quarto 108</p>
+                                <p>Preço: $140</p>
+                            </div>
+                            <p>Tipo: padrão</p>
+                            <p>Condição: disponível</p>
+                            <div class="rating" data-rating="4.1"></div>
+                        </div>
+                        <div class="room">
+                            <div class="images">
+                                <div class="image-item">
+                                    <img src="static/assets/images/rooms/8/a.avif" alt="Quarto Image" />
+                                </div>
+                                ,
+                                <div class="image-item">
+                                    <img src="http://192.168.1.188:3000/8/b.avif" alt="Quarto Image" />
+                                </div>
+                            </div>
+                            <div class="room-info">
+                                <p>Quarto 310</p>
+                                <p>Preço: $280</p>
+                            </div>
+                            <p>Tipo: suíte</p>
+                            <p>Condição: disponível</p>
+                            <div class="rating" data-rating="4.6"></div>
+                        </div>
+                        <div class="room">
+                            <div class="images">
+                                <div class="image-item">
+                                    <img src="static/assets/images/rooms/9/a.avif" alt="Quarto Image" />
+                                </div>
+                            </div>
+                            <div class="room-info">
+                                <p>Quarto 112</p>
+                                <p>Preço: $110</p>
+                            </div>
+                            <p>Tipo: padrão</p>
+                            <p>Condição: manutenção</p>
+                            <div class="rating" data-rating="3.9"></div>
+                        </div>
+                    </div>
                 </section>
             </div>
         </main>
@@ -100,21 +241,29 @@
                 <span>Patrocinadores:</span>
                 <div class="sponsors-logos">
                     <div class="sponsor-logo">
-                        <img src="https://logos-world.net/wp-content/uploads/2023/07/Las-Vegas-Logo.png" alt="Sponsor 1" />
+                        <img
+                            src="https://logos-world.net/wp-content/uploads/2023/07/Las-Vegas-Logo.png"
+                            alt="Sponsor 1"
+                        />
                     </div>
                     <div class="sponsor-logo">
-                        <img src="https://www.donatelifevirginia.org/wp-content/uploads/2019/10/Donate-Life-Virginia-Logo-Horizontal.png" alt="Sponsor 2" />
+                        <img
+                            src="https://www.donatelifevirginia.org/wp-content/uploads/2019/10/Donate-Life-Virginia-Logo-Horizontal.png"
+                            alt="Sponsor 2"
+                        />
                     </div>
                     <div class="sponsor-logo">
                         <img src="https://www.jmsmucker.com/assets/jmsmucker/logos/JMS.png" alt="Sponsor 3" />
                     </div>
                     <div class="sponsor-logo">
-                        <img src="https://logos-world.net/wp-content/uploads/2020/11/Old-Spice-Logo.png" alt="Sponsor 4" />
+                        <img
+                            src="https://logos-world.net/wp-content/uploads/2020/11/Old-Spice-Logo.png"
+                            alt="Sponsor 4"
+                        />
                     </div>
                 </div>
             </div>
             <div class="section-links">
-
                 <div class="useful-links">
                     <ul>
                         <li><a href="#">Sobre nós</a></li>
@@ -133,7 +282,7 @@
                     </ul>
                 </div>
                 <div class="brand">
-                    <img src="static/assets/logo_name.png" alt="">
+                    <img src="static/assets/logo_name.png" alt="" />
                 </div>
             </div>
             <div class="copyrights">
