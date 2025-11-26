@@ -2,14 +2,26 @@
     nav {
         display: flex;
         flex-direction: column;
+
+        ul {
+            display: none;
+        }
+
+        header {
+            justify-content: space-evenly;
+            button.hamburguer {
+                display: flex;
+                border: none;
+                background-color: transparent;
+                color: #4d2c14;
+            }
+        }
     }
     main {
         padding: 5px;
-
-
     }
-    main > header{
-        form{
+    main > header {
+        form {
             width: 100%;
             max-width: none;
         }
@@ -41,14 +53,15 @@
     }
 
     footer {
-        div.section-links{
+        div.section-links {
             display: flex;
             flex-direction: column;
             gap: 20px;
             align-items: center;
 
-            div.useful-links{
+            div.useful-links {
                 flex-direction: column;
+                align-items: start;
                 gap: 40px;
             }
         }

@@ -39,6 +39,9 @@ nav {
                 object-fit: contain;
             }
         }
+        button.hamburguer{
+            display: none;
+        }
     }
     ul {
         display: flex;
